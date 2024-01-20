@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border-radius: 5px;
+  margin: 15px 30px;
+  padding: 8px;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  margin: 6px;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  margin: 6px;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  margin: 6px;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  margin: 6px;
+}
+
+input[type=date] {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #3ded97;
+  margin: 6px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=submit] {
+  color: white;
+  text-align: center;
+  background: #4caf59a1;
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 4px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3dede4c4;
+}
+
+input[type=radio] {
+  border: none;
+  background: rgba(255, 255, 255, 0.456);
+}

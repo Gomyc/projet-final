@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>A-propos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+         <a href="index.html"> <span>air</span>Travel</a>
+    </div>
+    <ul class="manu">
+       <li><a href="#">acceuil</a></li>
+       <li><a href="a-propos.html">A-propos</a></li>
+       <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="#" class="btn-reservation">Resever Maintenat</a>
+ </header>
+
+  <!--A propos section -->
+<section id="a-propos">
+  <h1 class="a-propos">a propos</h1>
+<div class="img-desc">
+     <video src=""></video>
+</div>
+<div class="right">
+   <h3>Nous voyageon pour chercher d'autres ètats, d'autres vies, d'autres âmes</h3>
+   <p></p>
+   <a href="#">Lire plus</a>
+</div>
+</section>
+
+    <h2 id="forms" class="mt-2">Forms</h2>
+    <form>
+      <label for="title">Title</label>
+      <input name="title" id="title" placeholder="Post title" aria-label="Post title" />
+      <label for="post">Write the post content</label>
+      <textarea name="post" id="post"></textarea>
+      <label for="food">Select your favorite food</label>
+      <select name="food" id="food">
+        <option>Pizza</option>
+        <option>Burger</option>
+        <option>Empanada</option>
+      </select>
+      <label for="file">Select file</label>
+      <input type="file" name="file" id="file">
+      <p class="mt-4">Choose your file to upload</p>
+      <p>
+        <label class="btn" for="file-button">Select file</label>
+        <input type="file" hidden name="file-button" id="file-button">
+      </p>
+      <p class="mt-4">Choose your drink:</p>
+      <label>
+        <input type="radio" name="drink" value="water">
+        Water
+      </label>
+      <label>
+        <input type="radio" name="drink" value="soda">
+        Soda
+      </label>
+      <label class="mt-4">
+        <input type="checkbox" value="1" name="terms">
+        Accept terms and conditions
+      </label>
+      <button class="main">Save</button>
+    </form>
+    
+    <h2 id="messages" class="mt-2">Messages</h2>
+    <p class="msg ok">
+      Ok message
+    </p>
+    <p class="msg err">
+      Error message
+    </p>
+    <p class="msg info">
+      Info message
+    </p>
+    <p class="msg warn">
+      Warning message
+    </p>
+    <p class="text-center">
+      <a href="#" class="btn" onclick="return document.querySelector('.alert').hidden=false">
+        Show alert message 
+      </a>
+    </p>
+    <p class="msg alert err" hidden role="alert">
+      This is an alert message. 
+      <b title="Close" aria-label="Close the alert." onclick="this.parentElement.hidden=true">✕</b>
+    </p>
+    
+    <h2 id="icons" class="mt-2">Icons</h2>
+    <p>
+      Use <a href="https://getemoji.com/">emojis</a> for most of the icons you need, like 🖨️, ⚙️  or 📞
+      But for social networks we needs icons, here you have the most used:
+    </p>
+</body>
+</html>

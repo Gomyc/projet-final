@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Raleway:wght@100;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+body{
+    background-color: #111;
+}
+section{
+   margin-top: 50px;
+}
+header{
+   background-color: #222;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 50px;
+   padding: 0 5%;
+}
+header .logo a{
+   font-size: 25px;
+   color: #29d9d5;
+
+}
+header .logo a span{
+   color: #fff;
+}
+.manu{
+   display: flex;
+   align-items: center;
+}
+.manu li{
+   margin: 0 15px;
+   list-style-type: none;
+}
+.manu li a{
+   color: #fff;
+   font-size:14px ;
+}
+.btn-reservation {
+   color: #29d9d5;
+   font-size: 14px;
+   border: 2px solid #29d9d5;
+   padding:5px 20px;
+   transition: 0.5ms;
+   font-weight: bolder;
+   box-shadow: 0 0 10px #29d9d5;
+}
+.btn-reservation:hover {
+   background-color: #29d9d5;
+   box-shadow: 0 0 10px #29d9d5;
+   color: #fff;
+}
+
+/*Home acceuil css*/
+
+#home{
+    background-image: url("la-fenêtre-de-l-avion.jpg") ;
+    background-color:linear-gradient(rgba(0,0,0,.1),#333)  ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+#home h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+    -webkit-text-stroke:#fff 0.02px;
+    color: transparent;
+    text-transform: lowercase;
+}
+#home h4{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#home p{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.home-btn{
+    margin-bottom: 20px;
+}
+.find_trip{
+    background-color: #222;
+    padding: 20px;
+    width: 70%;
+    position: absolute;
+    bottom: -50px;
+}
+.find_trip form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+.find_trip form div, .find_trip form input[type="submit"]{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.find_trip form label{
+    color: #999;
+    font-size: 15ox;
+    margin-bottom: 10px;
+}
+.find_trip form input{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid #29d9d5;
+    outline: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #fff;
+}
+.find_trip form input[type="submit"]{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #29d9d5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.find_trip form input[type="submit"]:hover{
+    box-shadow: 0 0 10px #29d9d5;
+}
